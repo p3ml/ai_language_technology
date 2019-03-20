@@ -3,30 +3,9 @@
 
 ### Use virtual environment, for example, we install `virtualenv`  
 ```
-$ pip install virtualenv
-```
-### Create a virtual environment `venv`
+$ conda install nbconvert=5.4.1
 ``` 
-$ virtualenv venv
+### To start jupyter notebook, just type
 ```
-### Activate the virtual environment 
-```
-$ source venv/bin/activate
-``` 
-You shall see
-```
-(venv) $
-```
-###  Install Jupyter kernel
-```
-(venv) $ ipython kernel install --user --name=venv
-```
-###  Install other packages
-```
-(venv) $ pip install -r requeriments.txt
-```
-
-### To start Jupyter 
-```
-(venv) $ jupyter notebook
+$ jupyter notebook
 ```
