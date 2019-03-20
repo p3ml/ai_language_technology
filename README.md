@@ -1,7 +1,7 @@
 # ai_language_technology
 ## Getting started
 
-### Use virtual environment, for example, we install `virtualenv'  
+### Use virtual environment, for example, we install `virtualenv`  
 ```
 $ pip install virtualenv
 ```
@@ -19,7 +19,11 @@ You shall see
 ```
 ###  Install Jupyter kernel
 ```
-(venv) $ ipython kernel install --user --name=.venv
+(venv) $ ipython kernel install --user --name=venv
+```
+###  Install other packages
+```
+(venv) $ pip install -r requeriments.txt
 ```
 
 ### To start Jupyter 
